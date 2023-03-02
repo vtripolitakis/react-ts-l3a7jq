@@ -1,0 +1,15 @@
+const DELAY = 2000;
+const MAXSVGWIDTH = 170;
+const ROWHEIGHT = 20; //row height in pixels
+const XAXISHEIGHT = 25;
+const FALLBACKCOLOR = '#000000';
+const FALLBACKFONT = 'Courier';
+
+export {
+  DELAY,
+  MAXSVGWIDTH,
+  ROWHEIGHT,
+  FALLBACKCOLOR,
+  FALLBACKFONT,
+  XAXISHEIGHT,
+};

@@ -1,0 +1,34 @@
+.leftRowPart {
+  float: left;
+  width: 25vw;
+  text-align: right;
+}
+
+.rightRowPart {
+  float: left;
+  margin-left: 1vw;
+  width: calc(100% - 26vw);
+}
+
+@media only screen and (max-width: 400px) {
+  .leftRowPart {
+    float: none;
+    width: 100%;
+    text-align: left;
+  }
+
+  .rightRowPart {
+    float: none;
+    margin-left: 1vw;
+    width: 100%;
+  }
+}
+
+/* shamelessly copied from StackOverflow */
+.rotating {
+  -webkit-transform: rotate(360deg);
+  -webkit-transition-duration: 1s;
+  -webkit-transition-delay: now;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+}
