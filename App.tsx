@@ -44,7 +44,12 @@ export default function App() {
       </div>
       <div style={{ clear: 'both' }}></div>
       <h4>Notes on missing parts and assumptions:</h4>
+      <pre>- Configuration can be found on conf/index.ts</pre>
       <pre>- No unit / E2E tests.</pre>
+      <pre>
+        - Left part width containing labels should be calculated dynamically,
+        alternatively the labels could be on the right
+      </pre>
       <pre>
         - Missing logic to scale the chart properly, it works for the existing
         proportions.

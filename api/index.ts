@@ -24,6 +24,7 @@ const data = {
 };
 
 const apiGetData = (): IChartData[] => {
+  // preprocess and check for invalid data
   return transformData(data);
 };
 
