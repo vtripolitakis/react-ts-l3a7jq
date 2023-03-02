@@ -22,6 +22,7 @@ const transformData = (data) => {
   });
 };
 
+// simple style generation using our theme provider
 const generateStyle = (themeProvider, color?: string, font?: string) => {
   return {
     color: themeProvider.getColor(color || ''),

@@ -5,7 +5,6 @@ import { MAXSVGWIDTH, DELAY } from './conf';
 import { apiGetData } from './api';
 import { generateStyle } from './util';
 import { IChartData } from './interfaces';
-import './styles/index.css';
 
 export default function App() {
   const [data, setData] = React.useState<IChartData[]>([]);
@@ -35,11 +34,7 @@ export default function App() {
           Evangelos Tripolitakis 02.03.2023
         </p>
         <p style={generateStyle(theme, null, null)}>vtripolitakis@gmail.com</p>
-        {loading && (
-          <div>
-            Loading... <span className="rotating">&#9881;</span>
-          </div>
-        )}
+        {loading && <div>Loading... &#9881;</div>}
         {!loading && (
           <div>
             <h2 style={generateStyle(theme, 'success', null)}>Chart Area</h2>

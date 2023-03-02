@@ -1,4 +1,4 @@
-const DELAY = 2000;
+const DELAY = 1500;
 const MAXSVGWIDTH = 170;
 const ROWHEIGHT = 20; //row height in pixels
 const XAXISHEIGHT = 25;

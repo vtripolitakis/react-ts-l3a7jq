@@ -23,12 +23,3 @@
     width: 100%;
   }
 }
-
-/* shamelessly copied from StackOverflow */
-.rotating {
-  -webkit-transform: rotate(360deg);
-  -webkit-transition-duration: 1s;
-  -webkit-transition-delay: now;
-  -webkit-animation-timing-function: linear;
-  -webkit-animation-iteration-count: infinite;
-}
