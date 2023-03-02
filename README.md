@@ -1,8 +1,7 @@
 # Simple Graph
-
 [Edit on StackBlitz ⚡️](https://stackblitz.com/edit/react-ts-l3a7jq)
+# Notes on missing parts and assumptions:
 
-<h4>Notes on missing parts and assumptions:</h4>
 - Configuration can be found on conf/index.ts
 - No unit / E2E tests.
 - Left part width containing labels should be calculated dynamically, alternatively the labels could be on the right
