@@ -7,6 +7,10 @@ import { themeProvider } from '../../styles/themeProvider';
 const HorizontalChart = ({ chartWidth, chartData }: IHorizontalChart) => {
   const theme = themeProvider();
 
+  if (chartData.length === 0) {
+    return <div>no data available</div>
+  }
+
   return (
     <div>
       {chartData
